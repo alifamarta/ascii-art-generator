@@ -11,7 +11,7 @@ try:
     # resize image
     width, height = img.size
     aspect_ratio = height/width
-    new_width = 120
+    new_width = int(input('Enter the width of ASCII art: '))
     new_height = new_width * aspect_ratio * 0.55
     img = img.resize((new_width, int(new_height)))
 
