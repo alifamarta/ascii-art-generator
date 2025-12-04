@@ -29,6 +29,6 @@ pip install -r requirements.txt
 python .\ascii-gen.py
 ```
 
-Note:
+### Note:
 - Jika muncul error pada import `PIL`, pastikan `Pillow` telah terpasang.
 
